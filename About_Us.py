@@ -11,7 +11,7 @@ st.markdown(centered_html, unsafe_allow_html=True)
 
 
 image = Image.open('clubsiren.png')
-st.image(image,  use_container_width=True)
+st.image(image)
 
 st.write('---')
 
