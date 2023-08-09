@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('clubsiren.png')
+image = Image.open('clubsiren.png', width=50)
 st.image(image)
 
 # Define the HTML for the centered header
