@@ -1,15 +1,8 @@
 import streamlit as st
 from PIL import Image
 
-
-def add_logo(my_logo, width, height):
-    """Read and return a resized logo"""
-    logo = Image.open(my_logo)
-    modified_logo = logo.resize((width, height))
-    return modified_logo
-
-my_logo = add_logo('club_siren.png', width=50, height=60)
-st.sidebar.image(my_logo)
+image = Image.open('clubsiren.png')
+st.image(image)
 
 # Define the HTML for the centered header
 centered_html = '<h1 style="text-align: center;">Sisterhood Restorative Project</h1>'
