@@ -9,29 +9,10 @@ centered_html = '<h1 style="text-align: center;">Sisterhood Restorative Project<
 st.markdown(centered_html, unsafe_allow_html=True)
 		#	==	end	code	from ==
 
-
-#image = Image.open('clubsiren.png')
-#st.image(image)
-# Add a custom CSS style to center the image
-
-st.markdown(
-    """
-    <style>
-    .centered-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh; /* Adjust as needed */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# Centered image
-image_url = "clubsiren.png"
-st.markdown(f'<div class="centered-image"><img src="{image_url}" alt="Centered Image"></div>', unsafe_allow_html=True)
-
+col1, col2, col3 = st.columns(3)
+with col2:
+	image = Image.open('clubsiren.png')
+	st.image(image)
 
 st.write('---')
 
