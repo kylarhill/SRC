@@ -1,14 +1,18 @@
 import streamlit as st
 from PIL import Image
 
-image = Image.open('clubsiren.png', width=50)
-st.image(image)
+
 
 # Define the HTML for the centered header
 centered_html = '<h1 style="text-align: center;">Sisterhood Restorative Project</h1>'
 # Display the centered header using st.markdown
 st.markdown(centered_html, unsafe_allow_html=True)
 		#	==	end	code	from ==
+
+
+image = Image.open('clubsiren.png')
+st.image(image,  use_container_width=True)
+
 st.write('---')
 
 st.subheader('Our Misison')
