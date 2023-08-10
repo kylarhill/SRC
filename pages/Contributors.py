@@ -7,7 +7,7 @@ st.write('---')
 col1, col2 = st.columns(2)
 
 with col1:
-    image = Image.open('src_headshot.jpg')
+    image = Image.open('src_headshot.png')
     st.write('''Kyla Hill graduated from FCRH in 2023 with a BA in Economics and International Political Economy. She is now pursuing an MS in Management from Fordham's Gabelli School of Business.
                 Born and raised in Springfield, Massachusetts, she spent much of her childhood performing on
                 stages and participating in competitive sports. She also spent much of her youth songwriting and
