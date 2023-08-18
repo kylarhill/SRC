@@ -22,6 +22,7 @@ with col1:
     
 with col2:
     image = Image.open('no_user.png')
+    st.image(image)
     st.write('''Stephanie Arel has taught theology at Fordham since 2019. She designed the sacred texts course
             Scripture and the Human Response to Trauma in 2021. Before coming to Fordham, she won an
             Andrew W. Mellon Fellowship that funded research at the National September 11 Memorial &amp;
@@ -44,6 +45,7 @@ ccol1, ccol2 = st.columns(2)
 
 with ccol1:
     image = Image.open('cecl_image.png')
+    st.image(image)
     st.write('''The Center for Community Engaged Learning (CECL) aims to “bridge Fordham University with our neighboring communities and 
              global partners through experiential learning, research, and civic engagement.” The CECL’s vision to 
              accomplish its mission involves engaging “every member of the University as active citizens in the alleviation of 
@@ -59,6 +61,7 @@ with ccol1:
 
 with ccol2:
     image = Image.open('parmach_headshot.png')
+    st.image(image)
     st.write('''Robert Parmach, Ph.D., for over two decades, has dedicated a significant portion of his career to incorporating
               Jesuit values, teachings, and practices into various aspects of the Fordham University community.
               He has held several roles, including first-year class dean, professor, and leader of the Manresa program. ''')
