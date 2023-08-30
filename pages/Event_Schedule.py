@@ -14,3 +14,16 @@ st.write('---')
 image = Image.open('workshop_schedule.png')
 
 st.image(image)
+
+st.write('---')
+
+st.markdown('**Meditation:** through meditation we will regulate the nervous system, reduce anxiety, enhance mind-body connection, foster emotional regulation, build resilience, create a safe space for processing, promote empowerment, and nurture self-compassion.')
+st.markdown('**Narrative Group Work:**confront familiar narratives and stereotypes about black women through discussion')
+st.markdown('**Restorative Yoga:** gentle and therapeutic style of yoga that focuses on relaxation, deep rest, and rejuvenation; beneficial for reducing stress, calming the nervous system, and promoting overall well-being.')
+st.markdown('**Speaker/Q&A:** with Professor Stephanie Arel (see contributors page for more information about her)')
+st.markdown('**Lunch:** TBD')
+st.markdown('**Dinner:** TBD')
+st.markdown('**Podcast & Group Discussion:** a conversation between Dr. Joy Harden Bradford and  Dr. Yaba Blay,  licensed psychologists. It discusses the "system of white supremacy, skin color politics, and the role of the media in shaping our ideas about who we" (black women) are')
+st.markdown('**Art Group Work:** confront perceptions of Black women as invisible, undesirable, and a challenge through art')
+st.markdown('**Service & Conversation:** TBD')
+st.markdown('**Poetry Group Work:** write poetry to your "younger self" to foster healing')
