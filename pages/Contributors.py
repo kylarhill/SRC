@@ -21,7 +21,7 @@ with col1:
              )
     
 with col2:
-    image = Image.open('no_user.png')
+    image = Image.open('arel_headshot.png')
     st.image(image)
     st.write('''Stephanie Arel has taught theology at Fordham since 2019. She designed the sacred texts course
             Scripture and the Human Response to Trauma in 2021. Before coming to Fordham, she won an
