@@ -18,7 +18,7 @@ st.image(image)
 st.write('---')
 
 st.markdown('**Meditation:** through meditation we will regulate the nervous system, reduce anxiety, enhance mind-body connection, foster emotional regulation, build resilience, create a safe space for processing, promote empowerment, and nurture self-compassion.')
-st.markdown('**Narrative Group Work:**confront familiar narratives and stereotypes about black women through discussion')
+st.markdown('**Narrative Group Work:** confront familiar narratives and stereotypes about black women through discussion')
 st.markdown('**Restorative Yoga:** gentle and therapeutic style of yoga that focuses on relaxation, deep rest, and rejuvenation; beneficial for reducing stress, calming the nervous system, and promoting overall well-being.')
 st.markdown('**Speaker/Q&A:** with Professor Stephanie Arel (see contributors page for more information about her)')
 st.markdown('**Lunch:** TBD')
