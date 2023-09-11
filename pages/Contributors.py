@@ -8,7 +8,7 @@ st.write('---')
 col1, col2 = st.columns(2)
 
 with col1:
-    image = Image.open('src_headshot.png')
+    image = Image.open('attachments/src_headshot.png')
     st.image(image)
     st.write('''Kyla Hill graduated from FCRH in 2023 with a BA in Economics and International Political Economy. She is now pursuing an MS in Management from Fordham's Gabelli School of Business.
                 Born and raised in Springfield, Massachusetts, she spent much of her childhood performing on
@@ -21,7 +21,7 @@ with col1:
              )
     
 with col2:
-    image = Image.open('arel_headshot.png')
+    image = Image.open('attachments/arel_headshot.png')
     st.image(image)
     st.write('''Stephanie Arel has taught theology at Fordham since 2019. She designed the sacred texts course
             Scripture and the Human Response to Trauma in 2021. Before coming to Fordham, she won an
@@ -46,7 +46,7 @@ st.markdown('And a special thanks to our sponsors **Dean Parmach** and **CECL**!
 # ccol1, ccol2 = st.columns(2)
 
 # with ccol1:
-#     image = Image.open('cecl_image.png')
+#     image = Image.open('/cecl_image.png')
 #     st.image(image)
 #     st.write('''The Center for Community Engaged Learning (CECL) aims to “bridge Fordham University with our neighboring communities and 
 #              global partners through experiential learning, research, and civic engagement.” The CECL’s vision to 

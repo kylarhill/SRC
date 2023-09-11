@@ -11,7 +11,7 @@ st.markdown(centered_html, unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns(3)
 with col2:
-	image = Image.open('clubsiren.png')
+	image = Image.open('attachments/clubsiren.png')
 	st.image(image)
 
 st.write('---')

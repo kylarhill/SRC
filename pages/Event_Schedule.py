@@ -11,7 +11,7 @@ st.markdown(centered_html2, unsafe_allow_html=True)
 
 st.write('---')
 
-image = Image.open('workshop_schedule.png')
+image = Image.open('attachments/workshop_schedule.png')
 
 st.image(image)
 
