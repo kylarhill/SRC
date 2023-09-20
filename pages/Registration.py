@@ -18,14 +18,6 @@ centered_text = '''
 
 st.markdown(centered_text, unsafe_allow_html=True)
 
-centered_button = '''
-<div style="text-align: center;">
-    [f"{button_label}]({url})
-</div>
-'''
-
-st.markdown(centered_button, unsafe_allow_html=True)
-
-#col1, col2, col3 = st.columns(3)
-#with col2:
-	#st.markdown(f"[{button_label}]({url})", unsafe_allow_html=True, )
+col1, col2, col3 = st.columns(3)
+with col2:
+	st.markdown(f"[{button_label}]({url})", unsafe_allow_html=True, )
