@@ -12,12 +12,19 @@ button_label = 'Register Here'
 centered_text = '''
 <div style="color: red; text-align: center;">
     Registration is Limited to 20 spots!
-</div>
+<br>
+
 '''
 
 st.markdown(centered_text, unsafe_allow_html=True)
 
+centered_button = f'''
+<div style="text-align: center;">
+    [{button_label}]({url})
+</div>
+'''
 
-col1, col2, col3 = st.columns(3)
-with col2:
-	st.markdown(f"[{button_label}]({url})", unsafe_allow_html=True, )
+st.markdown(centered_button, unsafe_allow_html=True)
+
+
+
