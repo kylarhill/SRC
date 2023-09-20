@@ -1,9 +1,6 @@
 import streamlit as st
 
-col1 = st.columns(1)
-# Define the HTML for the centered header
-with col1:
-	st.header('Register Below')
+st.header('Register Below')
 	
 st.write('---')
 url = 'https://docs.google.com/forms/d/e/1FAIpQLSceenpAtEpVHO0rGEUscBRVER26WRZ9MDMXQKnnGf8DR2btXQ/viewform?usp=sf_link'
