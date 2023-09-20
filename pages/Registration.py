@@ -10,8 +10,8 @@ url = 'https://docs.google.com/forms/d/e/1FAIpQLSceenpAtEpVHO0rGEUscBRVER26WRZ9M
 button_label = 'Register Here'
 
 centered_text = '''
-<div style="text-align: center;">
-    :red[Registration is Limited to 20 spots!]
+<div style="color: red; text-align: center;">
+    Registration is Limited to 20 spots!
 </div>
 '''
 
