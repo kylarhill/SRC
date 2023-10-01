@@ -7,11 +7,10 @@ from PIL import Image
 centered_html = '<h1 style="text-align: center;">Sisterhood Restorative Project</h1>'
 # Display the centered header using st.markdown
 st.markdown(centered_html, unsafe_allow_html=True)
-		#	==	end	code	from ==
 
 col1, col2, col3 = st.columns(3)
 with col2:
-	image = Image.open('attachments/clubsiren.png')
+	image = Image.open('attachments/srp_graphic.png')
 	st.image(image)
 
 st.write('---')
