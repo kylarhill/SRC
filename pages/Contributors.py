@@ -39,11 +39,9 @@ with col2:
             of work at an Eating Disorder Hospital and in-depth training in treatment for trauma in the
             clinical setting from the New York Institute of Psychoanalysis.''')
     
-st.write('---')
 
-ccol1, ccol2 = st.columns(2)
 
-with ccol1:
+with col1:
     image = Image.open('attachments/bridges_pic.png')
     st.image(image)
     st.write('''Christine K. Bridges is an ordained Itinerant Elder of the African Methodist Episcopal Church. 
