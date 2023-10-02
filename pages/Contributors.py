@@ -41,40 +41,35 @@ with col2:
     
 st.write('---')
 
+ccol1, ccol2 = st.columns(2)
+
+with ccol1:
+    image = Image.open('attachments/bridges_pic.png')
+    st.image(image)
+    st.write('''Christine K. Bridges is an ordained Itinerant Elder of the African Methodist Episcopal Church. 
+              While serving in the women’s ministry at the Greater Allen A.M.E. Cathedral (GAC), 
+             pastored by Reverend Drs. Floyd H. and Elaine M. Flake, she was introduced to Womanist Theology.''')
+    st.write('''She received a Master of Divinity from New Brunswick Theological Seminary.  
+             She completed the clinical pastoral education training and certification as a 
+             Board-Certified Clinical Chaplain and Pastoral Counselor (BCCC/PC) with the College of Pastoral 
+             Supervision and Psychotherapy, Inc. (CPSP).  She is a Registered Nurse with a Bachelor of Science in Nursing 
+             from S.U.N.Y., Stony Brook and has clinical / managerial community health experience with Visiting Nurse 
+             Serve of New York.  ''')
+    st.write('''Her approach to ministry embraces womanism (“…Loves struggle. Loves the Folk. Loves herself. Regardless.” 
+             Alice Walker, In Search of Our Mother’s Gardens: Womanist Prose, Jovanovich,1984).''')
+    st.write('''As Chaplain of the Cancer Center and Palliative Care Team at NYC Health + Hospitals/ Queens 
+             (2015-2022) she provided spiritual care to persons diagnosed with life limiting illnesses or who 
+             are dying and offered grief counseling for caregivers and staff.''')
+    st.write('''Her prophetic passion is to embark upon an “Inspired Journey,” embodying God’s
+              compassion and the creative power of contemplative practices of breathing, and centering 
+             prayers for persons coping with anxiety, embodied trauma and grief.''')
+    st.write('''She designed and facilitated small group workshops focused on sharing personal sacred narratives for,
+              “I’m Just Saying” Women’s Retreats presented by Rev. Dr. Francine Hernandez of L&F Consultants, Inc. 
+             before relocating to Delaware.''')
+    st.write('''She is Co-Facilitator for “Sisters Believing In Wellness” (SBW) Womanist 
+             Gathering Project which affirms the full humanity of ALL women reading sacred texts with
+              the intention of receiving the life, love and liberty of God.''')
+    
+st.write('---')
+
 st.markdown('And a special thanks to our sponsors **Dean Parmach** and **CECL**!')
-
-# ccol1, ccol2 = st.columns(2)
-
-# with ccol1:
-#     image = Image.open('/cecl_image.png')
-#     st.image(image)
-#     st.write('''The Center for Community Engaged Learning (CECL) aims to “bridge Fordham University with our neighboring communities and 
-#              global partners through experiential learning, research, and civic engagement.” The CECL’s vision to 
-#              accomplish its mission involves engaging “every member of the University as active citizens in the alleviation of 
-#              poverty, the promotion of justice, the protection of human rights, and respect for the environment.''')
-#     st.write('''The values the CECL strive to uphold include experiential learning for social justice, asset-based community development, anti-racist pedagogies,
-#               Ignatian Pedagogical Paradigm, Catholic Social Teaching, and Student success. As a sponsor for the Sisterhood Restorative Project, the CECL exemplifies
-#               its unwavering commitment to uplifting individuals and communities through education.
-#               The project, aligned with CECL's ethos, fulfills its mission by facilitating participants'
-#               comprehension of the impact of community engagement on personal and spiritual growth and interpersonal relationships.''')
-#     st.write('Thank you for your sponsorship')
-
-    
-
-
-# with ccol2:
-#     image = Image.open('parmach_headshot.png')
-#     st.image(image)
-#     st.write('''Robert Parmach, Ph.D., for over two decades, has dedicated a significant portion of his career to incorporating
-#               Jesuit values, teachings, and practices into various aspects of the Fordham University community.
-#               He has held several roles, including first-year class dean, professor, and leader of the Manresa program. ''')
-    
-#     st.write('''Parmach's emphasis on "instigating our head, our heart, and our hands" is a compelling message that encourages 
-#             individuals to engage fully on intellectual, emotional, and practical levels. This message suggests a holistic
-#             approach to personal and professional growth, aligning well with Jesuit education ideals encompassing academic learning, 
-#             personal development, and engagement with the community.''' )
-#     st.write('''In addition to his contributions hosting events where the university community can learn about the Ignatian values and
-#               mission, Parmach is a sponsor for the upcoming Black Women Restorative Workshop. This workshop aligns with his long-standing
-#               commitment to incorporating Jesuit values, teachings, and practices into various aspects of his work and the university community.''')
-#     st.write('Thank you for your sponsorship')
-    
