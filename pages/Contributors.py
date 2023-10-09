@@ -41,7 +41,9 @@ with col2:
     
 st.write('---')
 
-with col1:
+col3, col4 = st.columns(2)
+
+with col3:
     image = Image.open('attachments/bridges_headshot.png')
     st.image(image)
     st.write('''Christine K. Bridges is an ordained Itinerant Elder of the African Methodist Episcopal Church. 
@@ -67,10 +69,8 @@ with col1:
     st.write('''She is Co-Facilitator for “Sisters Believing In Wellness” (SBW) Womanist 
              Gathering Project which affirms the full humanity of ALL women reading sacred texts with
               the intention of receiving the life, love and liberty of God.''')
-    
-st.write('---')
 
-with col2:
+with col4:
     image = Image.open('attachments/natalie_headshot.png')
     st.image(image)
     st.write('''Natalie Bridges is a Yoga & Barre Teacher from Spanish Harlem with a background in speech communications, 
