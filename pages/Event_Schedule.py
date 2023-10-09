@@ -7,7 +7,7 @@ centered_html = '<h1 style="text-align: center;">Event Schedule</h1>'
 # Display the centered header using st.markdown
 st.markdown(centered_html, unsafe_allow_html=True)
 
-st.markdown('_While we strongly encourage attendance at all sessions, we understand that life can sometimes get in the way. Don\'t let that deter you from registering!_')
+st.markdown('_While we strongly **encourage** attendance at all sessions, we understand that life can sometimes get in the way. Don\'t let that deter you from registering!_')
 
 st.write('---')
 
