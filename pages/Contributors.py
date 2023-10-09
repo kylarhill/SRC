@@ -8,7 +8,7 @@ st.write('---')
 col1, col2 = st.columns(2)
 
 with col1:
-    image = Image.open('attachments/srp_headshot.png')
+    image = Image.open('attachments/kyla_headshot.png')
     st.image(image)
     st.write('''Kyla Hill graduated from FCRH in 2023 with a BA in Economics and International Political Economy. She is now pursuing an MS in Management from Fordham's Gabelli School of Business.
                 Born and raised in Springfield, Massachusetts, she spent much of her childhood performing on
@@ -39,10 +39,10 @@ with col2:
             of work at an Eating Disorder Hospital and in-depth training in treatment for trauma in the
             clinical setting from the New York Institute of Psychoanalysis.''')
     
-
+st.write('---')
 
 with col1:
-    image = Image.open('attachments/bridges_pic.png')
+    image = Image.open('attachments/bridges_headshot.png')
     st.image(image)
     st.write('''Christine K. Bridges is an ordained Itinerant Elder of the African Methodist Episcopal Church. 
               While serving in the women’s ministry at the Greater Allen A.M.E. Cathedral (GAC), 
@@ -69,5 +69,19 @@ with col1:
               the intention of receiving the life, love and liberty of God.''')
     
 st.write('---')
+
+with col2:
+    image = Image.open('attachments/natalie_headshot.png')
+    st.image(image)
+    st.write('''Natalie Bridges is a Yoga & Barre Teacher from Spanish Harlem with a background in speech communications, 
+             dance and performing arts. Certified in both techniques for over 15 years,  she currently teaches at Energie Barre,
+             Thrive Barre & Fitness & Hot Phiit in Whestchester. As well as Elements Barre NYC  in midtown Manhattan & the
+              YMCA in the Bronx. As a cardio addition she teaches 305 fitness a hip-hop dance class, along with privates & 
+             group events in the NY area.  Classes are often energized, fun & challenging. They are accompanied by a motivating 
+             playlist to move and zone out to. Come enjoy a centering experience of mindful movement, energizing flow and
+              connection of breath. Showing gratitude for the body mind and soul.''')
+    
+st.write('---')
+
 
 st.markdown('And a special thanks to our sponsors **Dean Parmach** and **CECL**!')
