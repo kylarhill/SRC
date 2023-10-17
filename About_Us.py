@@ -26,12 +26,3 @@ st.markdown('**Workshops & Activities**: Participate in workshops and activities
 st.markdown('**Bonding & Networking**: Connect with like-minded women, build meaningful relationships, and expand your circle of sisters.')
 st.markdown('**Community Support**: Receive the encouragement and support you deserve as you navigate life\'s journey.')
 
-st.write('---')
-
-st.subheader('What\'s Included:')
-st.write('-Coffee on Saturday')
-st.write('-Breakfast and coffee on Sunday')
-st.write('-Lunch on Saturday and Sunday')
-st.write('-Dinner on Saturday')
-st.write('-Anything you create throughout the workshop')
-st.write('-Oh! and a small surprise :)')

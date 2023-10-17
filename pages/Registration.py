@@ -11,7 +11,7 @@ button_label = 'Register Here'
 
 centered_text = '''
 <div style="color: red; text-align: center;">
-    Registration is Limited to 20 spots!
+    Registration is Limited to 10 spots!
 <br>
 
 '''
